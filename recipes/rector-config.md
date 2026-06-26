@@ -24,7 +24,7 @@ php artisan essentials:rector --force --backup
 
 Published config uses `withPreparedSets(deadCode: true, codeQuality: true, typeDeclarations: true, privatization: true, earlyReturn: true, codingStyle: true)`.
 
-In gemom `rector.php` already uses `LaravelSetList::*`. Merge: keep the Laravel-specific sets, add the prepared sets on top.
+If the project's `rector.php` already uses `LaravelSetList::*`, merge: keep the Laravel-specific sets, add the prepared sets on top.
 
 ## When not to apply
 

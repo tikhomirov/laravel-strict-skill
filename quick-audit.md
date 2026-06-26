@@ -1,4 +1,4 @@
-# Quick Audit — gemom.ru
+# Quick Audit — Project
 
 A 5-minute shallow scan to find 3–5 improvement areas. Not a full audit.
 
@@ -6,7 +6,7 @@ A 5-minute shallow scan to find 3–5 improvement areas. Not a full audit.
 
 Open these files in parallel:
 
-- `AGENTS.md` — project conventions and CI commands
+- `AGENTS.md` (or `README.md`) — project conventions and CI commands
 - `composer.json` — Laravel / PHP / Livewire / Filament versions
 - `bootstrap/app.php` — global middleware, commands
 - `app/Providers/AppServiceProvider.php` — current essentials configuration
@@ -54,10 +54,10 @@ Use `16-point-checklist.md` to score. Mark only the obvious wins.
 Return in this exact order:
 
 ```text
-1. What I understood about gemom.ru
-   — Laravel 12 / PHP 8.4 / Livewire 4 / Filament 5
-   — Web PWA + Telegram bot (Nutgram) + Filament admin
-   — Stack: Breeze, Tailwind 3, Vite 7, SQLite in tests, MySQL in prod
+1. What I understood about the project
+   — Stack: Laravel X / PHP Y / Livewire Z / etc.
+   — Main features and modules
+   — Notable conventions from AGENTS.md
 
 2. Essentials readiness
    — X/16 (Y%)

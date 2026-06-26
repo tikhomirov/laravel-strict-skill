@@ -25,7 +25,7 @@ Each recipe is grounded in a real source. If a recommendation is not in this map
 | Practice                                           | Recipe                             | Origin                                                              |
 | -------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------------- |
 | `final readonly` service / Action classes          | `recipes/final-readonly.md`        | Dandy Style + Nuno coding style in `essentials/src/Configurables/*` |
-| `#[Scope]` attribute on Eloquent scopes            | `recipes/scope-attrs.md`           | Laravel 11+ attribute style; also used inside `Entry.php` in gemom  |
+| `#[Scope]` attribute on Eloquent scopes            | `recipes/scope-attrs.md`           | Laravel 11+ attribute style                                           |
 | PHPDoc generics on relations (`HasMany<X, $this>`) | `recipes/phpdoc-generics.md`       | `nunomaduro/larastan` (Larastan)                                    |
 | PHP 8.1 enums + Eloquent cast                      | `recipes/enums-cast.md`            | Laravel 9+ enum cast                                                |
 | Single-action controllers + `App\Actions\`         | `recipes/actions-pattern.md`       | `essentials/src/Commands/MakeActionCommand.php`                     |
@@ -49,8 +49,8 @@ Each recipe is grounded in a real source. If a recommendation is not in this map
 
 | Tool                                     | Recipe                  | Origin                                                                   |
 | ---------------------------------------- | ----------------------- | ------------------------------------------------------------------------ |
-| 16-point essentials + Livewire readiness | `16-point-checklist.md` | `nunomaduro/essentials/README.md` features + article + gemom `AGENTS.md` |
-| Quick audit of gemom project             | `quick-audit.md`        | Dandy Style workflow + Nuno configurables                                |
+| 16-point essentials + Livewire readiness | `16-point-checklist.md` | `nunomaduro/essentials/README.md` features + article         |
+| Quick audit of the project               | `quick-audit.md`        | Dandy Style workflow + Nuno configurables                     |
 
 ## Rule for agents
 

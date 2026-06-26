@@ -20,7 +20,7 @@ Use this as the audit backbone. Each row has: where to look, what to find, and w
 | 12  | `#[Scope]` attribute on Eloquent scopes         | `app/Models/*.php`                         | `scope-attrs.md`                             |
 | 13  | PHPDoc generics on Eloquent relations           | `app/Models/*.php`                         | `phpdoc-generics.md`                         |
 
-## Livewire security (3 points — gemom-specific)
+## Livewire security (3 points — applies to any Livewire project)
 
 | #   | Check                                                          | Where to look   | Recipe                          |
 | --- | -------------------------------------------------------------- | --------------- | ------------------------------- |
@@ -43,7 +43,7 @@ readiness = passed / 16 * 100%
 When running the audit, group findings by priority and label every item with its source:
 
 ```markdown
-## Audit — gemom.ru
+## Audit — project
 
 **Date:** YYYY-MM-DD
 **Readiness:** X/16 (Y%)

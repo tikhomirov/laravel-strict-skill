@@ -5,7 +5,7 @@ description: Use Nuno Maduro's essentials and related Laravel best practices to 
 
 # Laravel Strict
 
-Laravel Strict is a way of thinking: first understand gemom.ru and the real task, then find weak spots, and only then pull a recipe from `recipes/` as a tool.
+Laravel Strict is a way of thinking: first understand the project and the real task, then find weak spots, and only then pull a recipe from `recipes/` as a tool.
 
 Use the recipes, but do not limit yourself to them.
 
@@ -19,7 +19,7 @@ First find a real problem in the project, diff, file, or code fragment. Then cho
 
 Workflow:
 
-1. Understand the context (gemom.ru is a Laravel 12 PWA + Telegram bot + Filament admin for moms; see `AGENTS.md` and `.ai/`).
+1. Understand the context (the project's framework, version, conventions — read its `AGENTS.md`, `README.md`, `composer.json`, configs).
 2. Find weak spots (N+1, missing `#[Locked]`, mutable Carbon, missing tests, etc.).
 3. Rank them and choose the most important ones.
 4. Explain why they matter.
@@ -95,7 +95,7 @@ Laravel Strict is not limited to these recipes. The recipes highlight frequent p
 For a broad review (mode 1):
 
 ```text
-1. What I understood about gemom.ru
+1. What I understood about the project
 2. Essentials readiness (X/16)
 3. Main improvement points (P0/P1/P2)
 4. Why they matter

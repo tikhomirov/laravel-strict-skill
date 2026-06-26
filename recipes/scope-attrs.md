@@ -2,7 +2,7 @@
 
 ## Source
 
-Laravel 11+ modern style. `Illuminate\Database\Eloquent\Attributes\Scope`. Used in `Entry.php` in gemom already.
+Laravel 11+ modern style. `Illuminate\Database\Eloquent\Attributes\Scope`.
 
 ## Problem
 

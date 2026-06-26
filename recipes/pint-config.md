@@ -26,7 +26,7 @@ php artisan essentials:pint --force --backup
 
 This overwrites `pint.json` with 23 rules including `declare_strict_types`, `final_class`, `ordered_class_elements`, `strict_comparison`, `fully_qualified_strict_types`, `global_namespace_import`, `mb_str_functions`.
 
-In gemom already has its own `pint.json`. Diff carefully:
+If the project already has its own `pint.json`, diff carefully:
 
 ```bash
 cp pint.json pint.json.backup

@@ -35,7 +35,7 @@ Use this map before loading any recipe. Load only what matches a real smell.
 | Need to harden `Password::defaults()` to production rules   | `recipes/audit-passwords.md`       |
 | `Model::create($request->all())`, unsafe `$fillable`        | `recipes/audit-mass-assignment.md` |
 
-## Livewire security (gemom uses Livewire 4)
+## Livewire security (applies to any Livewire project — 3.x or 4.x)
 
 | Smell or task                                                                    | Load recipe                             |
 | -------------------------------------------------------------------------------- | --------------------------------------- |
@@ -50,7 +50,7 @@ Use this map before loading any recipe. Load only what matches a real smell.
 | Smell or task                                                    | Load recipe             |
 | ---------------------------------------------------------------- | ----------------------- |
 | Want the full 16-point essentials + Livewire readiness checklist | `16-point-checklist.md` |
-| Quick audit of gemom — boot providers, tests, style configs      | `quick-audit.md`        |
+| Quick audit of the project — boot providers, tests, style configs | `quick-audit.md`       |
 
 ## Loading limits
 
