@@ -116,4 +116,4 @@ For a contextual task (mode 2):
 
 Project first. Pain second. Recipe third. Small safe action last.
 
-When in doubt: do less, but verify with `make ci-fix && make ci`.
+When in doubt: do less, but always run the project's formatter and test suite before claiming the work is done (Pint + Rector + PHPUnit/Pest + PHPStan, or whatever the project uses).

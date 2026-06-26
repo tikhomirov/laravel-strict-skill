@@ -69,7 +69,7 @@ When running the audit, group findings by priority and label every item with its
 
 ### Commands after fixes
 
-make ci-fix && make ci
+vendor/bin/pint --dirty && vendor/bin/phpstan analyse && vendor/bin/pest  # or project's equivalent
 ```
 
 Always tag each item with one of:
